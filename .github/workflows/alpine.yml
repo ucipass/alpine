@@ -28,5 +28,5 @@ jobs:
           docker buildx build \
           --push \
           --tag ${{ secrets.DOCKER_USERNAME }}/alpine:latest \
-          -f Dockerfile.alpine \
+          -f Dockerfile \
           --platform linux/amd64,linux/arm64 . 
