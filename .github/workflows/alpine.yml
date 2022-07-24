@@ -4,7 +4,7 @@ on:
     branches:
       - "main"  
     paths:
-      - "alpine/**"
+      - "**"
 jobs:
   buildx:
     runs-on: ubuntu-latest
